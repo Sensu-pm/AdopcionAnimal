@@ -1,10 +1,34 @@
 header{
     background-color: rgb(187, 137, 0);
     width: 100%;
-    position: fixed;
-    margin-inline: 10%;
+    position: absolute;
     z-index: 90%;
+    }
+/*Media Queries Resoluciones*/
+/* Cellphones */
 
+@media only screen and (max-width: 480px){
+#Titulo {
+padding-top: 26%;
+}
+}
+/* Tablets */
+@media only screen and (min-width: 480px) and (max-width: 1025px){
+    #Titulo {
+padding-top: 8%;
+}
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1300px){
+    #Titulo {
+    padding-top: 6%;
+    }
+}
+/*Pantallas grandes*/
+@media only screen and (min-width: 1301px){
+    #Titulo {
+    padding-top: 4%;
+    }
 }
 nav{
     float: left;
