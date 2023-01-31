@@ -1,0 +1,35 @@
+header{
+    background-color: rgb(187, 137, 0);
+    width: 100%;
+    position: fixed;
+    margin-inline: 10%;
+    z-index: 90%;
+
+}
+nav{
+    float: left;
+
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+
+}
+nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+nav ul li a{
+    display: block;
+    padding: 10px ;
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: coral;
+}
+body{
+    background-color: beige;
+}
